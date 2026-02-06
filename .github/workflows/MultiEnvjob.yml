@@ -21,7 +21,7 @@ jobs:
       password: ${{secrets.DOCKERHUBPASSWORD}}
  
  
- Logintodockerhub:
+ Log-into-dockerhub:
   runs-on: ubuntu-latest
   environment: Qa
  steps:
